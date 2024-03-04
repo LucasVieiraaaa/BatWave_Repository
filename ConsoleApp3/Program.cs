@@ -238,46 +238,6 @@ class URI
           $"\t\t\t\t\t           {geturName()}: {a}  {getSystemName()}: {b}              \n" +
           $"\t\t\t\t\t|________________________________________|\n");
     }
-    public static void getRoleta()
-    {
-        string repeat = "";
-        string x = "", l = "";
-        int y = 0, z = 0;
-        Random r = new Random();//25% de chance cada individuo
-            y = r.Next(1, 40);
-            if (y >= 1 && y <= 10) x = "Caio";
-            if (y > 10 && y <= 20) x = "Dola";
-            if (y > 20 && y <= 30) x = "ChaoLin";
-            if (y > 30 && y <= 40) x = "Luketa";
-            z = r.Next(0, 40);
-            if (z >= 0 && z <= 10) l = "O Viadinho";
-            if (z > 10 && z <= 20) l = "A Boneca";
-            if (z > 20 && z <= 30) l = "O Devorador";
-            if (z > 30 && z <= 40) l = "O Mano";
-        repeat = x;
-        if (repeat == x)
-        {
-            y = r.Next(1, 40);
-            if (y >= 1 && y <= 10) x = "Luketa";
-            if (y > 10 && y <= 20) x = "Chaolin";
-            if (y > 20 && y <= 30) x = "Dola";
-            if (y > 30 && y <= 40) x = "Caio";
-        }
-
-            for (int i = 0; i < 3; i++)
-        {
-            Thread.Sleep(600);
-            Console.WriteLine("\t\t\t\t\t\tRoletando...");
-        }
-        for (int i = 0; i < 2; i++)
-        {
-            Thread.Sleep(800);
-            Console.WriteLine("\t\t\t\t\t\tÉ OFICIAL!!!");
-        }
-        Thread.Sleep(600);
-        Console.WriteLine($"\n\t\t\t\t\t\t{l} {x} foi sorteado\n");
-        Thread.Sleep(1500);
-    }
     public static void getAge()
     {
         var created = new DateTime(2023, 11, 3, 5, 10, 23);
@@ -736,7 +696,7 @@ class URI
                     if (first.Equals("3"))
                         getAge();
                     if (first.Equals("4"))
-                        getRoleta();
+                        Console.Write("\t\t\t\t\t\t Manutenção...");
                     if (first.Equals("5"))
                         Console.Clear();
                     if (first.Equals("6"))
