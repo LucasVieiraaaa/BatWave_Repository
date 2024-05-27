@@ -21,13 +21,16 @@ Functions to customize the system and user name, immediately reflecting these ch
 4-Real Time Date and Time:
 Continuous display of date and time updated in real time, using threads to maintain accuracy.
 Change of Visual Aspects:
-Ability to change the color of the console, allowing users to customize the interface to their preferences.
-      
-5-Rock, Paper, Scissors Game:
+
+5-Ability to change the color of the console, allowing users to customize the interface to their preferences.
+![Alt text](imgs/img02.png)
+
+6-Rock, Paper, Scissors Game:
 Implementation of the classic Rock, Paper, Scissors game, with logic to determine the winner between the user and
 the computer.
+![Alt text](imgs/img04.png)
       
-6-Greeting Recognition:
+7-Greeting Recognition:
 Function that recognizes the time of day (morning, afternoon, night) and greets the user accordingly, using the
 current system time.
       
