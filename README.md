@@ -8,7 +8,9 @@ Functionalities
 Implementation of an authentication system that requires a password to access the BatComputer.
 Function to allow secure password change by the authenticated user.
 ![Alt text](imgs/img01.png)
+
 1-Calculator:
+
 A built-in calculator that can perform basic arithmetic operations, integrating a mathematical expression parser.
 ![Alt text](imgs/img02.png)
       
