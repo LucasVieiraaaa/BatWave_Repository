@@ -7,11 +7,12 @@ Functionalities
 0-Password and Password Change:
 Implementation of an authentication system that requires a password to access the BatComputer.
 Function to allow secure password change by the authenticated user.
+
 ![Alt text](imgs/img01.png)
 
 1-Calculator:
-
 A built-in calculator that can perform basic arithmetic operations, integrating a mathematical expression parser.
+
 ![Alt text](imgs/img02.png)
       
 2-Roulette:
@@ -25,11 +26,13 @@ Continuous display of date and time updated in real time, using threads to maint
 Change of Visual Aspects:
 
 5-Ability to change the color of the console, allowing users to customize the interface to their preferences.
+
 ![Alt text](imgs/img02.png)
 
 6-Rock, Paper, Scissors Game:
 Implementation of the classic Rock, Paper, Scissors game, with logic to determine the winner between the user and
 the computer.
+
 ![Alt text](imgs/img04.png)
       
 7-Greeting Recognition:
