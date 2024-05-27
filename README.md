@@ -2,7 +2,7 @@
 The "BatWave" project is inspired by the iconic system used by Batman, incorporating a series of advanced and
       interactive features, developed in C#. This all-in-one system is designed to be a powerful tool for both everyday
       use and entertainment, combining security, utility and customization.
-            ![Alt text](img02/imagem.png)
+            ![Alt text](imgs/img02.png)
       
       °Functionalities
       
