@@ -22,6 +22,8 @@ The "BatWave" project is inspired by the iconic system used by Batman, incorpora
       
       4-Calculator:
       A built-in calculator that can perform basic arithmetic operations, integrating a mathematical expression parser.
+
+      ![image](imgs/img02.png)
       
       5-Rock, Paper, Scissors Game:
       Implementation of the classic Rock, Paper, Scissors game, with logic to determine the winner between the user and
