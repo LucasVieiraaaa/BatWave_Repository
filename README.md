@@ -1,9 +1,8 @@
 # BATWAVE BETA 0.2V
-The "BatWave" project is inspired by the iconic system used by Batman, incorporating a
-      series of advanced and
+The "BatWave" project is inspired by the iconic system used by Batman, incorporating a series of advanced and
       interactive features, developed in C#. This all-in-one system is designed to be a powerful tool for both everyday
       use and entertainment, combining security, utility and customization.
-      Functionalities
+      # Functionalities
       Password and Password Change:
       Implementation of an authentication system that requires a password to access the BatComputer.
       Function to allow secure password change by the authenticated user.
